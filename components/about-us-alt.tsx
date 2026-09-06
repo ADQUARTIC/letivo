@@ -45,8 +45,8 @@ export function AboutUsAlt() {
             <div className="relative">
               <div className="bg-gradient-to-br from-brand-yellow/20 to-transparent p-6 rounded-2xl">
                 <Image
-                  src="/modern-office-meeting.png"
-                  alt="Professional consulting team"
+                  src="/fuel-depot.jpg"
+                  alt="Sasol filling station in South Africa"
                   width={400}
                   height={500}
                   className="rounded-xl object-cover w-full"

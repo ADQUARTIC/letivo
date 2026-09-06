@@ -54,11 +54,11 @@ export function AboutCompany() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <Image
-                src="/professional-team-meeting.png"
-                alt="Professional team in a planning meeting"
+                src="/fuel-storage-tanks.jpg"
+                alt="Engen filling station in South Africa"
                 width={500}
                 height={600}
-                className="rounded-2xl object-cover"
+                className="rounded-2xl object-cover w-full h-[520px]"
                 loading="lazy"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                 placeholder="blur"

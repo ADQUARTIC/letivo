@@ -103,12 +103,12 @@ export function FreeConsultation() {
 
               <form action={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <Input type="text" name="fullName" placeholder="Full Name" className="bg-gray-50" required />
-                  <Input type="text" name="phone" placeholder="Phone" className="bg-gray-50" required />
+                  <Input type="text" name="fullName" placeholder="Full Name" className="bg-gray-50" required maxLength={120} />
+                  <Input type="text" name="phone" placeholder="Phone" className="bg-gray-50" required maxLength={30} />
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <Input type="email" name="email" placeholder="Email" className="bg-gray-50" required />
-                  <Input type="text" name="company" placeholder="Company Name" className="bg-gray-50" required />
+                  <Input type="email" name="email" placeholder="Email" className="bg-gray-50" required maxLength={254} />
+                  <Input type="text" name="company" placeholder="Company Name" className="bg-gray-50" required maxLength={120} />
                 </div>
                 <div>
                   <Select value={selectedService} onValueChange={setSelectedService} required>
@@ -126,7 +126,7 @@ export function FreeConsultation() {
                   </Select>
                 </div>
                 <div>
-                  <Textarea name="message" placeholder="Tell us about your fuel requirements" className="bg-gray-50" rows={5} required />
+                  <Textarea name="message" placeholder="Tell us about your fuel requirements" className="bg-gray-50" rows={5} required maxLength={2000} />
                 </div>
                 <div>
                   <Button

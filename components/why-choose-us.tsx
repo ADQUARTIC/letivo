@@ -55,11 +55,11 @@ export function WhyChooseUs() {
           <div className="flex justify-center">
             <div className="bg-brand-primary/10 p-3 rounded-2xl shadow-2xl shadow-brand-primary/20">
               <Image
-                src="/business-team-collaboration-transparent.png"
-                alt="Team collaborating in a meeting"
+                src="/fuel-pumps.jpg"
+                alt="Petrol and diesel pumps at a South African filling station"
                 width={500}
                 height={700}
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-full h-[560px]"
                 loading="lazy"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                 placeholder="blur"
