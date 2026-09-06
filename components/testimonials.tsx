@@ -10,14 +10,12 @@ const testimonials = [
     position: "Commercial client",
     quote:
       "The team has provided us with reliable fuel deliveries and excellent service. Their responsiveness and professionalism have made managing our fuel requirements much easier.",
-    image: "/testimonial-kizito.png",
   },
   {
     name: "Fleet Manager",
     position: "Logistics client",
     quote:
       "We needed a fuel supplier we could depend on. Their service has been consistent, professional, and well organised.",
-    image: "/testimonial-simphiwe.png",
   },
 ]
 

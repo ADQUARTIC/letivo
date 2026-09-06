@@ -27,11 +27,11 @@ export function Footer() {
 
           {/* Links */}
           <div className="flex justify-center gap-6 text-sm">
-            <Link href="/terms-of-service" className="hover:text-brand-primary transition-colours">
+            <Link href="/terms-of-service" className="hover:text-brand-primary transition-colors">
               Terms & Conditions
             </Link>
-            <Link href="/terms-of-service" className="hover:text-brand-primary transition-colours">
-              Privacy Policy
+            <Link href="/terms-of-service#cookie-policy" className="hover:text-brand-primary transition-colors">
+              Cookie Policy
             </Link>
           </div>
 

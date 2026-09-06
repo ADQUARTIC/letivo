@@ -56,7 +56,7 @@ export function WhyChooseUs() {
             <div className="bg-brand-primary/10 p-3 rounded-2xl shadow-2xl shadow-brand-primary/20">
               <Image
                 src="/business-team-collaboration-transparent.png"
-                alt="Operations team coordinating fuel supply and delivery"
+                alt="Team collaborating in a meeting"
                 width={500}
                 height={700}
                 className="rounded-xl object-cover"

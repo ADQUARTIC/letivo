@@ -55,7 +55,7 @@ export function AboutCompany() {
             <div className="relative">
               <Image
                 src="/professional-team-meeting.png"
-                alt="Team planning reliable fuel supply operations"
+                alt="Professional team in a planning meeting"
                 width={500}
                 height={600}
                 className="rounded-2xl object-cover"

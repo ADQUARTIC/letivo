@@ -41,7 +41,7 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <Image
               src="/hero-business-meeting.jpg"
-              alt="Operations team coordinating fuel supply for South African businesses"
+              alt="Professional team in a business meeting"
               width={600}
               height={500}
               className="object-cover rounded-2xl"
