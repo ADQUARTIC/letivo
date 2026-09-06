@@ -56,7 +56,7 @@ export function WhyChooseUs() {
             <div className="bg-brand-primary/10 p-3 rounded-2xl shadow-2xl shadow-brand-primary/20">
               <Image
                 src="/fuel-pumps.jpg"
-                alt="Fuel pumps at a commercial filling station"
+                alt="Petrol and diesel pumps at a South African filling station"
                 width={500}
                 height={700}
                 className="rounded-xl object-cover w-full h-[560px]"

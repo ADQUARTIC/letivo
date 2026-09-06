@@ -55,7 +55,7 @@ export function AboutCompany() {
             <div className="relative">
               <Image
                 src="/fuel-storage-tanks.jpg"
-                alt="Bulk fuel storage tanks at a distribution facility"
+                alt="Engen filling station in South Africa"
                 width={500}
                 height={600}
                 className="rounded-2xl object-cover w-full h-[520px]"

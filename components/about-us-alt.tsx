@@ -46,7 +46,7 @@ export function AboutUsAlt() {
               <div className="bg-gradient-to-br from-brand-yellow/20 to-transparent p-6 rounded-2xl">
                 <Image
                   src="/fuel-depot.jpg"
-                  alt="Fuel storage tanks at a supply depot"
+                  alt="Sasol filling station in South Africa"
                   width={400}
                   height={500}
                   className="rounded-xl object-cover w-full"

@@ -41,7 +41,7 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <Image
               src="/fuel-tanker.jpg"
-              alt="Petroleum tanker truck delivering bulk fuel"
+              alt="Fuel tanker on a South African road"
               width={600}
               height={500}
               className="object-cover rounded-2xl w-full h-[420px]"
