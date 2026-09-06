@@ -5,17 +5,17 @@ import { ArrowRight } from "lucide-react"
 
 const caseStudies = [
   {
-    image: "/case-study-1.png",
+    image: "/fuel-tanker.jpg",
     category: "Business Strategy",
     title: "Growth strategy for a tech startup",
   },
   {
-    image: "/case-study-2.png",
+    image: "/fuel-refinery.jpg",
     category: "Financial Consulting",
     title: "Optimizing financial operations for a retail chain",
   },
   {
-    image: "/case-study-3.png",
+    image: "/fuel-storage-tanks.jpg",
     category: "Market Analysis",
     title: "Market entry analysis for a global brand",
   },

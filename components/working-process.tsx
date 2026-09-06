@@ -16,7 +16,7 @@ const processData = [
       "Volume & Usage Analysis",
       "Delivery Location Planning",
     ],
-    image: "/process-image-1.png",
+    image: "/fuel-depot.jpg",
   },
   {
     step: "02",
@@ -24,7 +24,7 @@ const processData = [
     description:
       "We coordinate fuel sourcing and logistics according to your requirements, ensuring an efficient supply plan.",
     details: ["Fuel Sourcing Coordination", "Logistics Planning", "Efficient Supply Plan"],
-    image: "/strategy-whiteboard.png",
+    image: "/fuel-refinery.jpg",
   },
   {
     step: "03",
@@ -32,7 +32,7 @@ const processData = [
     description:
       "Fuel is transported and delivered to your specified location using an organised and reliable distribution process.",
     details: ["Scheduled Transport", "On-Site Delivery", "Reliable Distribution"],
-    image: "/team-executing-plan.png",
+    image: "/fuel-delivery.jpg",
   },
   {
     step: "04",
@@ -40,7 +40,7 @@ const processData = [
     description:
       "We maintain a strong focus on professional service, responsible fuel handling, and reliable delivery standards.",
     details: ["Responsible Fuel Handling", "Professional Service", "Delivery Standards"],
-    image: "/data-analytics-dashboard.png",
+    image: "/fuel-pumps.jpg",
   },
   {
     step: "05",
@@ -48,7 +48,7 @@ const processData = [
     description:
       "For customers with recurring requirements, we provide ongoing supply planning and responsive support to help keep your operations running.",
     details: ["Recurring Supply Planning", "Responsive Support", "Operational Continuity"],
-    image: "/scaling-innovation.png",
+    image: "/fuel-station.jpg",
   },
 ]
 
@@ -94,11 +94,11 @@ export function WorkingProcess() {
                     </div>
                     <div className="flex items-center justify-center">
                       <Image
-                        src="/working-process-team.jpg"
+                        src={item.image}
                         alt={item.title}
                         width={500}
                         height={400}
-                        className="rounded-lg object-cover"
+                        className="rounded-lg object-cover w-full h-[320px]"
                         loading="lazy"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                         placeholder="blur"

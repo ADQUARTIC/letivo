@@ -40,11 +40,11 @@ export function Hero() {
           </div>
           <div className="flex justify-center lg:justify-end">
             <Image
-              src="/hero-business-meeting.jpg"
-              alt="Professional team in a business meeting"
+              src="/fuel-tanker.jpg"
+              alt="Petroleum tanker truck delivering bulk fuel"
               width={600}
               height={500}
-              className="object-cover rounded-2xl"
+              className="object-cover rounded-2xl w-full h-[420px]"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
               placeholder="blur"
