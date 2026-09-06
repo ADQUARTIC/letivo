@@ -12,10 +12,10 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Letivo | Strategic Consulting for Growth & Innovation",
+  title: "Letivo | Reliable Fuel Distribution Across South Africa",
   description:
-    "Letivo is a boutique consulting firm helping businesses unlock growth, improve operations, and drive sustainable success through expert strategy, analytics, and innovation.",
-  keywords: "consulting, strategy, business growth, innovation, analytics, operational excellence, South Africa",
+    "Letivo provides dependable fuel distribution and bulk fuel supply solutions to businesses, fleets, industries, construction sites, agricultural operations, and commercial customers across South Africa.",
+  keywords: "fuel distribution, bulk fuel supply, diesel delivery, commercial fuel, South Africa",
   authors: [{ name: "Letivo" }],
   creator: "Letivo",
   publisher: "Letivo",
@@ -32,24 +32,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_ZA",
     url: "https://www.letivo.co.za/",
-    title: "Letivo | Strategic Consulting for Growth & Innovation",
+    title: "Letivo | Reliable Fuel Distribution Across South Africa",
     description:
-      "Letivo empowers ambitious businesses and public sector organisations with tailored strategy, leadership, and operational consulting for long-term success.",
+      "Dependable fuel distribution and bulk fuel supply for businesses, fleets, and industrial operations across South Africa.",
     siteName: "Letivo",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Letivo - Strategic Consulting for Growth & Innovation",
+        alt: "Letivo - Reliable Fuel Distribution Across South Africa",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Letivo | Strategic Consulting for Growth & Innovation",
+    title: "Letivo | Reliable Fuel Distribution Across South Africa",
     description:
-      "Unlock growth and drive innovation with Letivo's expert consulting services. We help organisations make smarter decisions and deliver real results.",
+      "Bulk fuel supply and delivery solutions that keep South African businesses moving.",
     images: ["/og-image.jpg"],
   },
   robots: {

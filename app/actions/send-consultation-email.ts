@@ -30,7 +30,7 @@ export async function sendConsultationEmail(formData: FormData) {
     logDiag("Missing creds – returning mock success")
     return {
       success: true,
-      message: "Thank you for your consultation request! (Running in preview mode – no real email sent.)",
+      message: "Thank you for your quote request! (Running in preview mode – no real email sent.)",
     }
   }
 
@@ -40,7 +40,7 @@ export async function sendConsultationEmail(formData: FormData) {
   const basicAuth = "Basic " + toBase64(`api:${KEY}`)
 
   const textBody = `
-New Consultation Request – Letivo Website
+New Quote Request – Letivo Website
 
 Full Name : ${fullName}
 Company   : ${company}
@@ -65,7 +65,7 @@ Sent automatically from letivo.co.za`.trim()
       body: new URLSearchParams({
         from: `Letivo Website <mailgun@${DOMAIN}>`,
         to: "sandile.hogana@gmail.com, katlego.chagane@gmail.com",
-        subject: `New Consultation • ${fullName} (${company})`,
+        subject: `New Fuel Quote • ${fullName} (${company})`,
         text: textBody,
       }),
     })
@@ -78,7 +78,7 @@ Sent automatically from letivo.co.za`.trim()
 
     return {
       success: true,
-      message: "Thank you for your consultation request! We'll reply within 24 hours.",
+      message: "Thank you for your quote request! We'll reply within 24 hours.",
     }
   } catch (err) {
     console.error("Error sending consultation email:", err)

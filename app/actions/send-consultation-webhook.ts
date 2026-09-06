@@ -14,7 +14,7 @@ export async function sendConsultationWebhook(formData: FormData) {
     console.warn("[Webhook] Missing MAKE_WEBHOOK_URL environment variable")
     return {
       success: true,
-      message: "Thank you for your consultation request! (Running in preview mode – no real webhook sent.)",
+      message: "Thank you for your quote request! (Running in preview mode – no real webhook sent.)",
     }
   }
 
@@ -44,7 +44,7 @@ export async function sendConsultationWebhook(formData: FormData) {
 
     return {
       success: true,
-      message: "Thank you for your consultation request! We'll reply within 24 hours.",
+      message: "Thank you for your quote request! We'll reply within 24 hours.",
     }
   } catch (error) {
     console.error("Error sending consultation webhook:", error)

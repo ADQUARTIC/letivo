@@ -6,32 +6,18 @@ import { Button } from "@/components/ui/button"
 
 const testimonials = [
   {
-    name: "Kizito Nantcha",
-    position: "CEO of Moody and Smith Digital",
+    name: "Operations Manager",
+    position: "Commercial client",
     quote:
-      "Working with Letivo was a game changer for our company. Their team quickly identified inefficiencies in our product process and helped us streamline.",
+      "The team has provided us with reliable fuel deliveries and excellent service. Their responsiveness and professionalism have made managing our fuel requirements much easier.",
     image: "/testimonial-kizito.png",
   },
   {
-    name: "Simphiwe Khumalo",
-    position: "Managing Director of Limbic Media",
+    name: "Fleet Manager",
+    position: "Logistics client",
     quote:
-      "Letivo helped clarify how to deliver our event with real quality. Their strategy and execution tools are world class and brought confidence to our team.",
+      "We needed a fuel supplier we could depend on. Their service has been consistent, professional, and well organised.",
     image: "/testimonial-simphiwe.png",
-  },
-  {
-    name: "Kuhle Mlanduli",
-    position: "Senior Project Manager at FUNDI Capital",
-    quote:
-      "The Letivo team brought energy and expertise. Their business case training helped our staff apply real techniques that improve project success rates.",
-    image: "/testimonial-kuhle.png",
-  },
-  {
-    name: "Katlego Chagane",
-    position: "Co-founder of Charles & Co. Ventures",
-    quote:
-      "Letivo's approach to strategic alignment and innovation is sharp. Their insights helped shape our portfolio strategy and accelerate venture growth.",
-    image: "/testimonial-katlego.png",
   },
 ]
 
@@ -49,7 +35,7 @@ export function Testimonials() {
   const currentTestimonial = testimonials[currentIndex]
 
   return (
-    <section className="bg-white py-16 sm:py-20 lg:py-24">
+    <section id="testimonials" className="bg-white py-16 sm:py-20 lg:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-sm text-gray-500 font-semibold tracking-[0.2em] mb-2">» OUR TESTIMONIALS</p>
