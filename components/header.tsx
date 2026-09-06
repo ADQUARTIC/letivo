@@ -12,7 +12,7 @@ export function Header() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-2">
           <div className="flex items-center gap-2">
             <Bookmark className="w-4 h-4 text-brand-primary" />
-            <span>Trusted by 100+ organisations</span>
+            <span>Trusted by Businesses Across South Africa</span>
           </div>
           <div className="hidden md:flex items-center gap-6">
             <div className="flex items-center gap-2">

@@ -8,46 +8,46 @@ import { cn } from "@/lib/utils"
 const processData = [
   {
     step: "01",
-    title: "Discovery & Assessment",
+    title: "Requirement & Assessment",
     description:
-      "This initial phase involves understanding the client's needs, challenges, and goals. Consultants conduct in-depth analysis.",
+      "We begin by understanding your fuel requirements, consumption volumes, delivery location, and operational schedule.",
     details: [
-      "Stakeholder Interviews & Data Gathering",
-      "Comprehensive Business Analysis",
-      "Opportunity Identification",
+      "Fuel Requirement Assessment",
+      "Volume & Usage Analysis",
+      "Delivery Location Planning",
     ],
     image: "/process-image-1.png",
   },
   {
     step: "02",
-    title: "Strategy Development",
+    title: "Fuel Sourcing & Planning",
     description:
-      "Based on the assessment, we develop a tailored strategy. This includes setting clear objectives and defining key performance indicators (KPIs).",
-    details: ["Strategic Goal Setting", "Roadmap Creation", "Business Model Alignment"],
+      "We coordinate fuel sourcing and logistics according to your requirements, ensuring an efficient supply plan.",
+    details: ["Fuel Sourcing Coordination", "Logistics Planning", "Efficient Supply Plan"],
     image: "/strategy-whiteboard.png",
   },
   {
     step: "03",
-    title: "Implementation & Execution",
+    title: "Delivery & Distribution",
     description:
-      "We work closely with your team to implement the strategy, providing guidance and support throughout the process to ensure a smooth transition.",
-    details: ["Project Management", "Change Management Support", "Team Enablement"],
+      "Fuel is transported and delivered to your specified location using an organised and reliable distribution process.",
+    details: ["Scheduled Transport", "On-Site Delivery", "Reliable Distribution"],
     image: "/team-executing-plan.png",
   },
   {
     step: "04",
-    title: "Monitoring & Continuous Improvement",
+    title: "Quality & Service Assurance",
     description:
-      "We monitor progress against KPIs and make adjustments as needed. Our goal is to ensure long-term success and continuous improvement.",
-    details: ["Performance Tracking", "Iterative Optimisation", "Data-Driven Decision Support"],
+      "We maintain a strong focus on professional service, responsible fuel handling, and reliable delivery standards.",
+    details: ["Responsible Fuel Handling", "Professional Service", "Delivery Standards"],
     image: "/data-analytics-dashboard.png",
   },
   {
     step: "05",
-    title: "Scaling & Innovation",
+    title: "Ongoing Supply & Support",
     description:
-      "Once measurable success is achieved, we support scaling the strategy across business units and drive ongoing innovation for sustainable growth.",
-    details: ["Growth Enablement", "Innovation Integration", "Sustainability Planning"],
+      "For customers with recurring requirements, we provide ongoing supply planning and responsive support to help keep your operations running.",
+    details: ["Recurring Supply Planning", "Responsive Support", "Operational Continuity"],
     image: "/scaling-innovation.png",
   },
 ]
@@ -61,7 +61,7 @@ export function WorkingProcess() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-sm text-white/80 font-semibold tracking-[0.2em] mb-2">» WORKING PROCESS</p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            From Concept to Execution <br /> Our Consulting <span className="font-light">Process</span>
+            From Fuel Order to Reliable Delivery <br /> Our Fuel Distribution <span className="font-light">Process</span>
           </h2>
         </div>
 

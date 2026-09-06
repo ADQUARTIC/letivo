@@ -73,10 +73,14 @@ export function FreeConsultation() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div className="space-y-8">
               <div>
-                <p className="text-sm text-gray-500 font-semibold tracking-[0.2em] mb-2">» NEED CONSULTATIONS</p>
+                <p className="text-sm text-gray-500 font-semibold tracking-[0.2em] mb-2">» NEED FUEL SUPPLY</p>
                 <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-                  Ready to Get Free Consultation ?
+                  Ready to Secure Your Fuel Supply?
                 </h2>
+                <p className="text-gray-600 mt-4 leading-relaxed">
+                  Whether you need bulk diesel, petrol, or ongoing fuel distribution for your business, our team is
+                  ready to help. Tell us what you need, where you need it, and your expected fuel volume.
+                </p>
               </div>
               <div className="pt-8">
                 <div>
@@ -89,7 +93,7 @@ export function FreeConsultation() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-black mb-6">Get Free Consultation</h3>
+              <h3 className="text-2xl font-bold text-black mb-6">Get a Fuel Quote</h3>
 
               {message && !isSubmitted && (
                 <div className="mb-4 p-4 bg-red-50 border border-red-200 rounded-lg">
@@ -112,17 +116,17 @@ export function FreeConsultation() {
                       <SelectValue placeholder="Select Service" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="strategy-development">Strategy Development</SelectItem>
-                      <SelectItem value="market-intelligence">Market Intelligence</SelectItem>
-                      <SelectItem value="operational-excellence">Operational Excellence</SelectItem>
-                      <SelectItem value="business-consulting">Business Consulting</SelectItem>
-                      <SelectItem value="financial-consulting">Financial Consulting</SelectItem>
+                      <SelectItem value="bulk-fuel-supply">Bulk Fuel Supply</SelectItem>
+                      <SelectItem value="fuel-delivery">Fuel Delivery & Distribution</SelectItem>
+                      <SelectItem value="commercial-fuel">Commercial Fuel</SelectItem>
+                      <SelectItem value="industrial-fuel">Industrial Fuel</SelectItem>
+                      <SelectItem value="fleet-fuel">Fleet Fuel Solutions</SelectItem>
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
                 <div>
-                  <Textarea name="message" placeholder="Write message" className="bg-gray-50" rows={5} required />
+                  <Textarea name="message" placeholder="Tell us about your fuel requirements" className="bg-gray-50" rows={5} required />
                 </div>
                 <div>
                   <Button
@@ -131,7 +135,7 @@ export function FreeConsultation() {
                     disabled={isLoading || !selectedService}
                     className="w-full bg-brand-primary text-white hover:bg-brand-secondary rounded-lg px-8 py-4 font-semibold text-base transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {isLoading ? "Sending..." : "Get Consultation"}
+                    {isLoading ? "Sending..." : "Request a Quote"}
                     {!isLoading && <ArrowRight className="w-5 h-5 ml-2" />}
                   </Button>
                 </div>

@@ -22,7 +22,7 @@ export default function HomePage() {
             LETIVO
           </span>
           <span className="text-[12rem] font-extrabold text-gray-100/50 absolute -bottom-20 -right-20 select-none hidden lg:block">
-            CONSULTING
+            FUEL
           </span>
         </div>
         <div className="relative z-10">

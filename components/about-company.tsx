@@ -4,11 +4,11 @@ import { ArrowRight } from "lucide-react"
 
 export function AboutCompany() {
   return (
-    <section className="bg-white py-16 sm:py-24 lg:py-32 relative overflow-hidden">
+    <section id="about-company" className="bg-white py-16 sm:py-24 lg:py-32 relative overflow-hidden">
       {/* Background Text */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <span className="text-[12rem] lg:text-[16rem] font-extrabold text-gray-100 select-none opacity-50">
-          CONSULTING
+          DISTRIBUTION
         </span>
       </div>
 
@@ -18,8 +18,8 @@ export function AboutCompany() {
             <div>
               <p className="text-sm text-gray-500 font-semibold tracking-[0.2em] mb-4">» ABOUT COMPANY</p>
               <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-                Empowering Ambitious Organisations Through{" "}
-                <span className="font-light">Strategy, Innovation and Leadership</span>
+                Keeping South Africa Moving Through{" "}
+                <span className="font-light">Reliable Fuel Supply</span>
               </h2>
             </div>
 
@@ -27,23 +27,26 @@ export function AboutCompany() {
               <div>
                 <h3 className="text-xl font-bold text-black mb-3">Company Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We provide expert consulting services designed to help businesses thrive in today's dynamic
-                  marketplace through our experienced team.
+                  We are committed to providing dependable fuel distribution solutions that help businesses operate
+                  efficiently, minimise downtime, and keep their operations moving. Through reliable service,
+                  professional logistics, and a customer-focused approach, we make fuel supply simple and dependable.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-black mb-3">Company Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  To be the trusted partner that empowers businesses worldwide to unlock their full potential, driving
-                  sustainable growth
+                  To become a trusted fuel distribution partner across South Africa, recognised for reliability, service
+                  excellence, safety, and long-term customer relationships.
                 </p>
               </div>
             </div>
 
             <div className="pt-4">
-              <Button className="bg-brand-primary text-white hover:bg-brand-secondary rounded-lg px-8 py-4 font-semibold text-base transition-all duration-300 hover:scale-105">
-                Work With Us <ArrowRight className="w-5 h-5 ml-2" />
+              <Button asChild className="bg-brand-primary text-white hover:bg-brand-secondary rounded-lg px-8 py-4 font-semibold text-base transition-all duration-300 hover:scale-105">
+                <a href="#free-consultation">
+                  Work With Us <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
               </Button>
             </div>
           </div>
@@ -52,7 +55,7 @@ export function AboutCompany() {
             <div className="relative">
               <Image
                 src="/professional-team-meeting.png"
-                alt="Professional team in strategic planning meeting"
+                alt="Professional team in a planning meeting"
                 width={500}
                 height={600}
                 className="rounded-2xl object-cover"

@@ -21,17 +21,17 @@ export function Footer() {
 
           {/* Description */}
           <p className="text-gray-400 max-w-md mx-auto">
-            We are a leading consulting agency dedicated to helping businesses unlock their potential and achieve
-            sustainable growth.
+            We are a South African fuel distribution company providing reliable fuel supply and delivery solutions to
+            businesses, industries, fleets, and commercial customers.
           </p>
 
           {/* Links */}
           <div className="flex justify-center gap-6 text-sm">
-            <Link href="#" className="hover:text-brand-primary transition-colours">
+            <Link href="/terms-of-service" className="hover:text-brand-primary transition-colors">
               Terms & Conditions
             </Link>
-            <Link href="#" className="hover:text-brand-primary transition-colours">
-              Privacy Policy
+            <Link href="/terms-of-service#cookie-policy" className="hover:text-brand-primary transition-colors">
+              Cookie Policy
             </Link>
           </div>
 

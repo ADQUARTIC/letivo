@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowRight, BarChart, Landmark, Users } from "lucide-react"
+import { ArrowRight, Fuel, Truck, Factory } from "lucide-react"
 
 const cardColors = [
   "bg-[#19b0c5] border-[#19b0c5]/30 hover:border-[#19b0c5]",
@@ -9,31 +9,36 @@ const cardColors = [
 
 const services = [
   {
-    icon: <BarChart className="w-8 h-8 text-brand-primary" />,
-    title: "Strategy Development",
-    description: "We help our clients to craft strategic plans that drive clarity, growth, and long-term success.",
+    icon: <Fuel className="w-8 h-8 text-brand-primary" />,
+    title: "Bulk Fuel Supply",
+    description:
+      "We provide efficient bulk fuel supply solutions for businesses and organisations with regular or high-volume fuel requirements.",
   },
   {
-    icon: <Landmark className="w-8 h-8 text-brand-primary" />,
-    title: "Market Intelligence",
-    description: "We help our clients to uncover trends and insights that guide smarter business decisions.",
+    icon: <Truck className="w-8 h-8 text-brand-primary" />,
+    title: "Fuel Delivery & Distribution",
+    description:
+      "Our delivery solutions help ensure that fuel reaches your business, site, fleet, or facility safely and efficiently.",
   },
   {
-    icon: <Users className="w-8 h-8 text-brand-primary" />,
-    title: "Operational Excellence",
-    description: "We provide expert support to our clients to optimise processes and deliver greater impact.",
+    icon: <Factory className="w-8 h-8 text-brand-primary" />,
+    title: "Commercial & Industrial Fuel",
+    description:
+      "From construction and agriculture to logistics, manufacturing, mining, and industrial operations, we supply fuel solutions that keep businesses moving.",
   },
 ]
 
 export function WhatWeDo() {
   return (
-    <section className="bg-brand-dark py-16 sm:py-24 lg:py-32">
+    <section id="what-we-do" className="bg-brand-dark py-16 sm:py-24 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-brand-primary font-semibold tracking-widest">» WHAT WE DO</p>
-          <h2 className="text-4xl md:text-5xl font-bold mt-2">
-            The service we offer is specifically designed to meet your needs.
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold mt-2">Fuel Solutions Designed Around Your Business</h2>
+          <p className="text-gray-300 mt-4 text-lg">
+            We provide reliable fuel supply and distribution solutions tailored to the operational needs of businesses
+            across South Africa.
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (

@@ -3,33 +3,43 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const features = [
   {
-    title: "Expert Team",
+    title: "Reliable Supply",
     content:
-      "Our team consists of highly skilled professionals with years of experience in business strategy. We are dedicated to delivering impactful solutions tailored to your goals.",
+      "We help businesses maintain consistent access to the fuel they need to keep vehicles, equipment, machinery, and operations running.",
   },
   {
-    title: "Best Analytics",
+    title: "Professional Service",
     content:
-      "We leverage advanced analytics and data intelligence to help you make informed decisions, improve outcomes, and stay competitive in the market.",
+      "From enquiry to delivery, our team focuses on clear communication, efficient coordination, and dependable customer support.",
   },
   {
-    title: "Fast Working Process",
+    title: "Flexible Solutions",
     content:
-      "We pride ourselves on our structured and agile working process, ensuring timely delivery of value without compromising quality. Your growth is our mission.",
+      "Whether you require a once-off delivery or regular bulk fuel supply, we develop solutions around your operational requirements.",
+  },
+  {
+    title: "Safety & Compliance",
+    content:
+      "We prioritise responsible fuel handling, transportation, and delivery while operating with a strong focus on safety and applicable industry requirements.",
+  },
+  {
+    title: "Competitive Solutions",
+    content:
+      "We work to provide practical and cost-effective fuel distribution solutions without compromising service quality.",
   },
 ]
 
 export function WhyChooseUs() {
   return (
-    <section className="bg-[#1a1a1a] py-16 sm:py-24 lg:py-32">
+    <section id="why-choose-us" className="bg-[#1a1a1a] py-16 sm:py-24 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-brand-primary font-semibold tracking-widest">» WHY CHOOSE US</p>
-            <h2 className="text-4xl md:text-5xl font-bold">We provide the best solution for your business</h2>
+            <h2 className="text-4xl md:text-5xl font-bold">We Deliver More Than Fuel</h2>
             <p className="text-gray-400">
-              We are committed to excellence and innovation. Our strategic approach and client-centric focus set us
-              apart from the rest.
+              We understand that reliable fuel supply is critical to your business. Our approach combines dependable
+              distribution, professional service, and flexible solutions designed around your needs.
             </p>
             <Accordion type="single" collapsible defaultValue="item-0" className="w-full">
               {features.map((feature, index) => (
@@ -46,7 +56,7 @@ export function WhyChooseUs() {
             <div className="bg-brand-primary/10 p-3 rounded-2xl shadow-2xl shadow-brand-primary/20">
               <Image
                 src="/business-team-collaboration-transparent.png"
-                alt="Team in a strategy session"
+                alt="Team collaborating in a meeting"
                 width={500}
                 height={700}
                 className="rounded-xl object-cover"

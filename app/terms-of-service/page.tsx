@@ -9,7 +9,7 @@ export default function TermsOfService() {
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <section className="space-y-4">
+            <section id="cookie-policy" className="space-y-4">
               <h2 className="text-2xl font-bold text-black">Cookie Policy</h2>
               <p className="text-gray-600 leading-relaxed">
                 This website uses cookies to enhance user experience, analyse site traffic, and serve personalised
